@@ -1,0 +1,41 @@
+    body {
+        background-color: #B3B3B3;
+    }
+    
+    #p1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+    }
+    
+    h1 {
+        color: #FFFFFF;
+        position: top;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    
+    table {
+        width: 500px;
+        color: #FFFFFF;
+        font-size: medium;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    
+    p.p2 {
+        color: yellow;
+        font-size: large;
+    }
+    
+    li {
+        color: #CFF8FF;
+        font-size: medium;
+        font-family: "Emblema One";
+    }
+    
+    @font-face {
+        font-family: "Emblema One";
+        src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"),
+    }
