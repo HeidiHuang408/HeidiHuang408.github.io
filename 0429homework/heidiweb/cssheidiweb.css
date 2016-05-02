@@ -27,15 +27,10 @@
     p.p2 {
         color: yellow;
         font-size: large;
+        font-family: 'Fjalla One', sans-serif;
     }
     
     li {
         color: #CFF8FF;
-        font-size: medium;
-        font-family: "Emblema One";
-    }
-    
-    @font-face {
-        font-family: "Emblema One";
-        src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"),
+        font-family: 'Lobster', cursive;
     }
