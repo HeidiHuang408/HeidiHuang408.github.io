@@ -22,12 +22,12 @@
         font-size: medium;
         font-weight: lighter;
         text-decoration: none;
+        font-family: 'Orbitron', sans-serif;
     }
     
     p.p2 {
         color: yellow;
         font-size: large;
-        font-family: 'Fjalla One', sans-serif;
     }
     
     li {
