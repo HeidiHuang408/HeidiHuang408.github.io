@@ -1,0 +1,14 @@
+    .guarantee {
+        width: 40%;
+        padding: 10%;
+        line-height: 40px;
+        padding-left: 20%;
+        margin: auto;
+        text-align: center;
+        border-color: #FFFFFF;
+        border-width: 3px;
+        border-style: dotted;
+        background-color: aquamarine;
+        background-image: url(http://www.clker.com/cliparts/f/i/P/t/n/6/north-star-solid-white-hi.png);
+        background-repeat: repeat;
+    }
