@@ -9,6 +9,7 @@
         border-width: 3px;
         border-style: dotted;
         background-color: aquamarine;
-        background-image: url(http://www.clker.com/cliparts/f/i/P/t/n/6/north-star-solid-white-hi.png);
-        background-repeat: repeat;
+        background-image: url(shine.png);
+        background-repeat: no-repeat;
+        background-size: 10%;
     }
