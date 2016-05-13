@@ -1,0 +1,46 @@
+ul li {
+    float: left;
+    display: block;
+    background-color: #A46C08;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+ul li a {
+    color: #FFEB3A;
+    text-decoration: none;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li:hover {
+    background-color: #CA8509;
+}
+
+ul li ul li:hover {
+    background-color: #FFEB3A;
+}
+
+ul li ul li:hover a {
+    color: #A46C08;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #A46C08;
+}
+
+#bk {
+    text-align: center;
+    width: 50%;
+}
