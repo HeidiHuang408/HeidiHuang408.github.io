@@ -38,9 +38,24 @@ h1 {
     color: #666666;
 }
 
-.botton {
-    font-size: 1.7em;
-    color: #333333;
+.botton1 {
+    color: #ffffff;
+    background-color: #0080FF;
+    border: 10px solid #0080FF;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #0069D3;
+    border: 10px solid #0069D3;
+    border-radius: 10px;
+}
+
+.botton2 {
+    color: #ffffff;
+    background-color: #CCCCCC;
+    border: 10px solid #CCCCCC;
+    border-radius: 10px;
 }
 
 .row2 {
