@@ -40,7 +40,16 @@ ul li ul li:hover a {
     background-color: #A46C08;
 }
 
+body {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+/*
 #bk {
     text-align: center;
     width: 50%;
 }
+*/
