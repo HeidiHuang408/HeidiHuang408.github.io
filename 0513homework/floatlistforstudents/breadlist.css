@@ -40,9 +40,31 @@ ul li ul li:hover a {
     background-color: #A46C08;
 }
 
-body {
+#bk {
+    width: 800px;
+}
+
+#good {
+    padding: 3px;
+    width: 30%;
     text-align: center;
-    display: block;
+    line-height: 20px;
+    float: left;
+}
+
+#feature {
+    padding: 3px;
+    width: 30%;
+    text-align: center;
+    line-height: 20px;
+    float: right;
+}
+
+#bad {
+    padding: 3px;
+    width: 30%;
+    text-align: center;
+    line-height: 20px;
     margin: auto;
 }
 
