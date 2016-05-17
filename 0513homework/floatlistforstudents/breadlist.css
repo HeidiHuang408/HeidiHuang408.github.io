@@ -47,7 +47,7 @@ ul li ul li:hover a {
 }
 
 #good {
-    padding: 3px;
+    padding: 1px;
     width: 30%;
     text-align: center;
     line-height: 20px;
@@ -55,7 +55,7 @@ ul li ul li:hover a {
 }
 
 #feature {
-    padding: 3px;
+    padding: 1px;
     width: 30%;
     text-align: center;
     line-height: 20px;
@@ -63,7 +63,7 @@ ul li ul li:hover a {
 }
 
 #bad {
-    padding: 3px;
+    padding: 1px;
     width: 30%;
     text-align: center;
     line-height: 20px;
