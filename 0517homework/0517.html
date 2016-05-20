@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>猜數字遊戲</title>
+</head>
+
+<body>
+    <script>
+    var answer = "1234";
+    var guessNum = "";
+    for (var i = 0; i < answer.length; i += 1) { //answer答案的.lengt長度
+        for (var j = 0; j < guessNum.length; j += 1) {
+            if (answer[i] === guessNum[j]) {
+                if (i === j) {
+                    aCount += 1;
+                } else bCount += 1;
+            }
+        }
+    }
+    console.log(aCount + "A" + bCount + "B");
+    </script>
+    <form method="post" name="forma">
+        猜數字遊戲
+        <br>
+        <input type="button" value="按下這裏產生數字"></input>
+    </form>
+    <p>電腦產生
+        <input type="text" name="c_num" value="XXXX" size="10">
+        </input>
+    </p>
+    <br>
+    <input type="text" name="guessNum" value="" onfocus="guessNum()" maxlength="4" size="6">
+    </input>
+    <br>
+    <input type="button" value="輸入完畢，送出" onclick="calculate(this.form)"></input>
+    <p>您猜的結果：</p>
+    <input type="text" name="result" value size="4"></input>
+</body>
+
+</html>
