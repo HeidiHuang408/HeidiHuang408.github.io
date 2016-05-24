@@ -46,6 +46,10 @@ ul li ul li:hover a {
     padding-left: 15%;
 }
 
+#story {
+    height: 30px;
+}
+
 #good {
     padding: 1px;
     width: 30%;

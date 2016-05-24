@@ -24,6 +24,30 @@
     }
 
     function findSeats() {
+        var col = 0;
+        var finished = false;
+        while ((col < seats.length) && !finished) {
+            if (seats[col] && seats[col + 1]) {
+                selectSeat = col;
+                document.getElementById("seat" + col).src = "seat_select.png";
+                document.getElementById("seat" + (col + 1)).src = "seat_select.png";
+                finished = true;
+
+            }
+            col++;
+        }
+        $(document).ready(function() {
+            $("#findseats").click(function() {
+                $("#findseats p").remove();
+                var findSeats = Math.seatImage((Math.random() * 1) ++);
+                //隨機產生
+                var seatImage = "seat" + (col + 1).src = "seat_select.png";
+                //折扣的字樣
+                $(this).append(discount_msg);
+
+            });
+
+        });
 
     }
     </script>
